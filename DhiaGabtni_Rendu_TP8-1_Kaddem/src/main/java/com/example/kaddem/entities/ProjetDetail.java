@@ -20,7 +20,7 @@ public class ProjetDetail {
     private long cout;
     private LocalDate dateDebut;
 
-    @OneToOne(cascade = CascadeType.ALL)
+/*    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "projet_id")
-    private Projet projet;
+    private Projet projet;*/
 }
